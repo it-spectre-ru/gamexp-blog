@@ -20,6 +20,13 @@ class RootIndex extends React.Component {
         />
         <ArticlePreview posts={posts} />
       </Layout>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+    console.log('Plain JavaScript inside Gatsby!');
+`
+  }}
+/>
     )
   }
 }
